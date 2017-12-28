@@ -1,0 +1,261 @@
+/* BIG TABLETS */
+
+@media only screen and (max-width: 1200px) {
+    .header-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+}
+
+/* TABLETS */
+
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 48px 0;
+    }
+
+    .steps-box {
+        margin-top: 12px;
+    }
+
+    .steps-box:last-child {
+        margin-top: 48px;
+    }
+
+    .steps-app {
+        width: 50%;
+    }
+
+    .steps-text {
+        margin-bottom: 36px;
+    }
+
+    .steps-text:last-of-type {
+        margin-bottom: 48px;
+    }
+
+    .icon-small {
+        width: 16px;
+        margin-right: 4px;
+    }
+
+    .city-feature {
+        margin-bottom: 4px;
+        font-size: 87%;
+    }
+
+    .plan-box {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .plan-price {
+        font-size: 250%;
+    }
+
+    .section-form {
+        width: 80%;
+    }
+}
+
+/* RECENT PHONES */
+
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 32px 0;
+    }
+
+    .header-text-box,
+    .row {
+        padding: 0 4%;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    .steps-box,
+    .steps-box:first-child {
+        text-align: center;
+    }
+
+    .steps-text {
+        text-align: left;
+    }
+
+    .steps-text div {
+        padding-top: 8px;
+    }
+
+    .section-form {
+        width: 90%;
+    }
+
+    .mobile-nav-icon {
+        display: block;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .mobile-nav-icon i {
+        color: #555555;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.97);
+        -webkit-box-shadow: 0 2px 2px #e8e8e8;
+        box-shadow: 0 2px 2px #e8e8e8;
+        z-index: 9999;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .logo-black {
+        display: block;
+    }
+
+    .main-nav {
+        display: none;
+        margin-top: 40px;
+    }
+
+    .main-nav li {
+        display: block;
+    }
+
+    .main-nav li:first-child {
+        margin-top: 28px;
+    }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited,
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        color: #555555;
+        text-align: right;
+        display: block;
+        border: 0;
+        padding: 12px 0;
+        font-size: 100%;
+    }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        border: 0;
+    }
+
+    .main-nav,
+    .sticky .main-nav {
+        margin-top: 16px;
+    }
+
+    h1 {
+        font-size: 180%;
+    }
+
+    h2 {
+        font-size: 155%;
+    }
+
+    .features-p {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .plan-box {
+        margin-top: 12px;
+    }
+
+    .footer-nav li {
+        padding: 4px 0;
+    }
+
+    .social-links li {
+        float: none;
+    }
+
+    .col-notchange ul li {
+        display: block;
+    }
+
+    .meals-showcase li {
+        width: 50%;
+    }
+
+    .meals-showcase li:nth-child(2n+1) {
+        clear: left;
+    }
+
+    .meal-picture img:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    .city-feature {
+        color: #ffffff;
+    }
+
+    .city-title {
+        color: #ffffff;
+    }
+
+    .box img {
+        display: none;
+    }
+
+    .box {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .city1 {
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.8))), url(../img/cities-lisbon.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../img/cities-lisbon.jpg);
+        margin-bottom: 8px;
+    }
+
+    .city2 {
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.8))), url(../img/cities-sanfrancisco.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../img/cities-sanfrancisco.jpg);
+        margin-bottom: 8px;
+    }
+
+    .city3 {
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.8))), url(../img/cities-berlin.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../img/cities-berlin.jpg);
+        margin-bottom: 8px;
+    }
+
+    .city4 {
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.8))), url(../img/cities-london.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../img/cities-london.jpg);
+    }
+
+    /* OLD PHONES */
+    @media only screen and (max-width: 480px) {
+        section {
+            padding: 12px 0;
+        }
+
+        .section-form {
+            width: 100%;
+        }
+    }
