@@ -1,4 +1,4 @@
-# [OMNIFOOD](https://resendebruno.github.io/omnifood)
+# [OMNIFOOD](https://resendebruno.github.io/omnifood/)
 
 This is a simple one-page website featuring the fictitious Omnifood company. This is built and taught from an Udemy course [RWD and Development with HTML5 and CSS3](https://www.udemy.com/design-and-develop-a-killer-website-with-html5-and-css3/). 
 
