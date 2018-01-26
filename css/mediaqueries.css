@@ -212,6 +212,11 @@
     .city-feature {
         color: #ffffff;
     }
+	
+	.city-feature a:hover,
+	.city-feature a:active {
+		color: #ffffff;
+	}
 
     .city-title {
         color: #ffffff;
